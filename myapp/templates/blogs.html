@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blogs</title>
+</head>
+<body>
+<a href="{% url 'my_index' %}">Home</a>
+<a href="{% url 'my_about' %}">About</a>
+<a href="{% url 'my_contact' %}">Contact us</a>
+<a href="{% url 'my_services' %}">Services</a>
+<a href="{% url 'my_blog' %}">Blogs</a>
+<h2>This is our Blog page</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium doloribus enim error, laboriosam nam quas quo reiciendis, rem repellendus voluptas voluptate voluptates? Alias consequatur ipsa libero magni repellat sed vero.</span><span>Beatae dignissimos, iste mollitia optio ratione similique vero. Ab, assumenda, maxime. Aliquam amet aspernatur dolores exercitationem expedita iure labore modi officiis perferendis, qui. Blanditiis, esse ex minus modi quas sed.</span><span>Ad animi aspernatur atque consequatur cumque doloremque enim exercitationem facere facilis in incidunt iste laudantium maiores minima
+    minus nulla numquam possimus provident quam, qui, quia sed sunt suscipit vitae voluptates.</span></p>
+<img src="{% static 'images/dog.jpeg' %}" alt="">
+</body>
+</html>

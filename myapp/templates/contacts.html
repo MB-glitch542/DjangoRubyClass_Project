@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+</head>
+<body>
+<a href="{% url 'my_index' %}">Home</a>
+<a href="{% url 'my_about' %}">About</a>
+<a href="{% url 'my_contact' %}">Contact us</a>
+<a href="{% url 'my_services' %}">Services</a>
+<a href="{% url 'my_blog' %}">Blog</a>
+<h2>This is our contact</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa dolorum error excepturi magnam non odio optio, possimus praesentium quae quia quo recusandae reprehenderit suscipit tempore unde vel vero voluptates.</span><span>Alias cum expedita repellendus reprehenderit ut! Aperiam beatae culpa cumque delectus dolorem dolores dolorum earum eos incidunt ipsam iure labore magnam molestiae nam natus optio reprehenderit rerum, tenetur ut vel!</span><span>Adipisci assumenda beatae commodi consequatur consequuntur expedita, fugiat, labore laudantium perferendis quidem reiciendis sint totam ullam! Accusamus, 
+    aliquid dolore eaque ex, expedita inventore, ipsum libero maiores molestias mollitia non similique.</span></p>
+<img src="{% static 'images/java.jpeg' %}" alt="">
+</body>
+</html>
